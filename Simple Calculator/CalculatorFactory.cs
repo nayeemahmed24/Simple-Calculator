@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Simple_Calculator
 {
-    class Factory : IMathOperations
+    public class CalculatorFactory : IMathOperations
     {
         public double Result { get; private set; }
 
         ICalculate add, subtact, multiply, devide;
-        public Factory()
+        public CalculatorFactory()
         {
             this.add = new Add();
             this.subtact = new Subtract();

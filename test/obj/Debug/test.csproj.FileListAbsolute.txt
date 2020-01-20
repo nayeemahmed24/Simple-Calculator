@@ -1,0 +1,14 @@
+F:\Testing\Simple-Calculator\test\bin\Debug\test.exe.config
+F:\Testing\Simple-Calculator\test\bin\Debug\test.exe
+F:\Testing\Simple-Calculator\test\bin\Debug\test.pdb
+F:\Testing\Simple-Calculator\test\bin\Debug\Simple Calculator.exe
+F:\Testing\Simple-Calculator\test\bin\Debug\nunit.framework.dll
+F:\Testing\Simple-Calculator\test\bin\Debug\Simple Calculator.pdb
+F:\Testing\Simple-Calculator\test\bin\Debug\Simple Calculator.exe.config
+F:\Testing\Simple-Calculator\test\bin\Debug\nunit.framework.pdb
+F:\Testing\Simple-Calculator\test\bin\Debug\nunit.framework.xml
+F:\Testing\Simple-Calculator\test\obj\Debug\test.csprojAssemblyReference.cache
+F:\Testing\Simple-Calculator\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+F:\Testing\Simple-Calculator\test\obj\Debug\test.csproj.CopyComplete
+F:\Testing\Simple-Calculator\test\obj\Debug\test.exe
+F:\Testing\Simple-Calculator\test\obj\Debug\test.pdb

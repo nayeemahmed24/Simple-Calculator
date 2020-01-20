@@ -10,7 +10,7 @@ namespace Simple_Calculator
     {
         static void Main(string[] args)
         {
-            Factory f = new Factory();
+            CalculatorFactory f = new CalculatorFactory();
             Console.WriteLine(f.Add(7));
             Console.WriteLine(f.Subtract(3));
         }
