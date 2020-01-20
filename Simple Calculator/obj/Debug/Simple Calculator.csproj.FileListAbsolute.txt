@@ -1,0 +1,7 @@
+F:\Testing\Simple-Calculator\Simple Calculator\bin\Debug\Simple Calculator.exe.config
+F:\Testing\Simple-Calculator\Simple Calculator\bin\Debug\Simple Calculator.exe
+F:\Testing\Simple-Calculator\Simple Calculator\bin\Debug\Simple Calculator.pdb
+F:\Testing\Simple-Calculator\Simple Calculator\obj\Debug\Simple Calculator.csprojAssemblyReference.cache
+F:\Testing\Simple-Calculator\Simple Calculator\obj\Debug\Simple Calculator.csproj.CoreCompileInputs.cache
+F:\Testing\Simple-Calculator\Simple Calculator\obj\Debug\Simple Calculator.exe
+F:\Testing\Simple-Calculator\Simple Calculator\obj\Debug\Simple Calculator.pdb
