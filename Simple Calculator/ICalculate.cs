@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Simple_Calculator
+﻿namespace SimpleCalculator
 {
     interface ICalculate
     {
-        double operation(double input,double result);
+        double Operation(double input,double result);
     }
 }

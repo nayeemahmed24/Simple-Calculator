@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Simple_Calculator
+namespace SimpleCalculator
 {
     public class CalculatorFactory : IMathOperations
     {
@@ -27,7 +27,7 @@ namespace Simple_Calculator
         public double Add( double input)
         {
 
-            double TempReslt =  add.operation(input, Result);
+            double TempReslt =  add.Operation(input, Result);
             Result = TempReslt;
             return TempReslt;
 
@@ -35,21 +35,22 @@ namespace Simple_Calculator
 
         public double Divide( double input)
         {
-            double TempReslt = devide.operation(input, Result);
+            double TempReslt = devide.Operation(input, Result);
             Result = TempReslt;
             return TempReslt;
         }
 
         public double Multiply( double input)
         {
-            double TempReslt = multiply.operation(input, Result);
+            double TempReslt = multiply.Operation(input, Result);
             Result = TempReslt;
             return TempReslt;
         }
 
         public double Subtract( double input)
         {
-            double TempReslt = subtact.operation(input, Result);
+
+            double TempReslt = subtact.Operation(input, Result);
             Result = TempReslt;
             return TempReslt;
         }

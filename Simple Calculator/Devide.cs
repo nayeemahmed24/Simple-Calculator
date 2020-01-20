@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Simple_Calculator
+namespace SimpleCalculator
 {
     class Devide : ICalculate
     {
-        public double operation(double input, double result)
+        public double Operation(double input, double result)
         {
             if(input == 0 && result == 0)
             {
