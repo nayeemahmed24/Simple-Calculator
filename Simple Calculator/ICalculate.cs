@@ -8,6 +8,6 @@ namespace Simple_Calculator
 {
     interface ICalculate
     {
-        double add(double input,double result);
+        double operation(double input,double result);
     }
 }
