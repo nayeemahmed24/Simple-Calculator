@@ -8,7 +8,7 @@ namespace Simple_Calculator
 {
     class Add : ICalculate
     {
-        public double add(double input, double result)
+        public double operation(double input, double result)
         {
             return input + result;
         }
