@@ -10,9 +10,10 @@ namespace Simple_Calculator
     {
         static void Main(string[] args)
         {
-            Factory f = new Factory();
-            Console.WriteLine(f.Add(7));
-            Console.WriteLine(f.Subtract(3));
+            CalculatorFactory c = new CalculatorFactory();
+            ICalculate temp = c.GetCalculate("-");
+            Console.WriteLine(
+                temp.operation(10, 4));
         }
     }
 }

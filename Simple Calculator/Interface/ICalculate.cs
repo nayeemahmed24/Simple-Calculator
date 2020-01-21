@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Simple_Calculator
 {
-    interface ICalculate
+    public interface ICalculate
     {
-        double operation(double input,double result);
+        double operation(double input1,double input2);
     }
 }
