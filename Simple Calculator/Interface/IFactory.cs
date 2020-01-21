@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Subtract : ICalculate
+    interface IFactory<T>
     {
-        public double Operation(double input, double result)
-        {
-            return result - input;   
-        }
+        ICalculate<T> GetCalculate(string Operator);
+
     }
 }

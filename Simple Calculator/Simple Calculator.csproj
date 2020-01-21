@@ -49,21 +49,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add.cs" />
-    <Compile Include="Devide.cs" />
+    <Compile Include="DataType\ComplexNumber.cs" />
+    <Compile Include="DataType\RealNumber.cs" />
+    <Compile Include="Operations\Add.cs" />
+    <Compile Include="Operations\Devide.cs" />
     <Compile Include="CalculatorFactory.cs" />
-    <Compile Include="ICalculate.cs" />
-    <Compile Include="InputProcess.cs" />
-    <Compile Include="MathOperations.cs" />
-    <Compile Include="Multiply.cs" />
+    <Compile Include="Interface\ICalculate.cs" />
+    <Compile Include="Interface\IFactory.cs" />
+    <Compile Include="Operations\Multiply.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Subtract.cs" />
+    <Compile Include="Operations\Subtract.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

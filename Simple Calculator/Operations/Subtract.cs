@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Add : ICalculate
+    class Subtract<T> : ICalculate<T>
     {
-        public double Operation(double input, double result)
+        
+
+        public T Operation(T input, T result)
         {
-            return input + result;
+            return (dynamic)((dynamic)input / (dynamic)result);
         }
     }
 }
