@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Add : ICalculate
+    class InputProcess : CalculatorFactory
     {
-        public double Operation(double input, double result)
-        {
-            return input + result;
-        }
+
     }
 }

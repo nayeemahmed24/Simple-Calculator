@@ -53,6 +53,7 @@
     <Compile Include="Devide.cs" />
     <Compile Include="CalculatorFactory.cs" />
     <Compile Include="ICalculate.cs" />
+    <Compile Include="InputProcess.cs" />
     <Compile Include="MathOperations.cs" />
     <Compile Include="Multiply.cs" />
     <Compile Include="Program.cs" />

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Simple_Calculator
+namespace SimpleCalculator
 {
     class Multiply : ICalculate
     {
-        public double operation(double input, double result)
+        public double Operation(double input, double result)
         {
             return input * result;
         }
