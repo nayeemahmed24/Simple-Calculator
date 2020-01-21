@@ -66,3 +66,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Simple Calculator/.vs/Simple Calculator/v16/Server/sqlite3/db.lock
