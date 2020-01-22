@@ -8,9 +8,9 @@ namespace SimpleCalculator
 {
     struct VectorObject : IOperator
     {
-        public double X;
-        public double Y;
-        public double Z;
+        public double X { get; private set; }
+        public double Y { get; private set; }
+        public double Z { get; private set; }
         public VectorObject(double x, double y,double z)
         {
             X = x;

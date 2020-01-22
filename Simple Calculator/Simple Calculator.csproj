@@ -53,7 +53,7 @@
     <Compile Include="DataType\ComplexNumber.cs" />
     <Compile Include="DataType\RealNumber.cs" />
     <Compile Include="Operations\Add.cs" />
-    <Compile Include="Operations\Devide.cs" />
+    <Compile Include="Operations\Divide.cs" />
     <Compile Include="Factory\CalculatorFactory.cs" />
     <Compile Include="Interface\ICalculate.cs" />
     <Compile Include="Interface\IFactory.cs" />

@@ -11,14 +11,22 @@ namespace SimpleCalculator
         private ICalculate<T> Operation;
         public ICalculate<T> GetCalculate(string Operator)
         {
-            if (Operator == "+")
-                Operation = new Add<T>();
-            else if (Operator == "-")
-                Operation = new Subtract<T>();
-            else if (Operator == "*")
-                Operation = new Multiply<T>();
-            else if (Operator == "/")
-                Operation = new Devide<T>();
+            switch (Operator)
+            {
+                case "+":
+                    Operation = new Add<T>();
+                    break;
+                case "-":
+                    Operation = new Subtract<T>();
+                    break;
+                case "*":
+                    Operation = new Multiply<T>();
+                    break;
+                case "/":
+                    Operation = new Divide<T>();
+                    break;
+            }
+
             return Operation;
         }
     }
