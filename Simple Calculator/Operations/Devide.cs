@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Devide<T> : ICalculate<T>
+    class Devide<T> : ICalculate<T> where T : IOperator
     {
         
 

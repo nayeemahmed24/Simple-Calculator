@@ -20,7 +20,7 @@ namespace SimpleCalculator
             //CalculatorFactory<RealNumber> cr = new CalculatorFactory<RealNumber>();
             //ICalculate<RealNumber> aar = cr.GetCalculate("+");
             //Console.WriteLine(
-            //    aar.Operation(new RealNumber(1), new RealNumber(3)).input1
+            //    aar.Operation(new RealNumber(1), new RealNumber(3)).realNumber
             //);
         }
     }

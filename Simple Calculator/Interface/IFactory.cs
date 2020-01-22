@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    interface IFactory<T>
+    interface IFactory<T> where T : IOperator
     {
         ICalculate<T> GetCalculate(string Operator);
 
