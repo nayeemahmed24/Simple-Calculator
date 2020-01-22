@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Subtract<T> : ICalculate<T> where T : IOperator
+    internal class Subtract<T> : ICalculate<T> where T : IOperator
     {
         
 

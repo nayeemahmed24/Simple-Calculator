@@ -8,7 +8,7 @@ namespace SimpleCalculator
 {
     struct RealNumber : IOperator
     {
-        public double realNumber;
+        public double realNumber { get; private set; }
 
         public RealNumber(double realNumber)
         {
