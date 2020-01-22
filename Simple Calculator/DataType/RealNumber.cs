@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleCalculator
+namespace SimpleCalculator 
 {
-    struct RealNumber
+    struct RealNumber : IOperator
     {
-        public double input1;
+        public double realNumber;
 
-        public RealNumber(double input1)
+        public RealNumber(double realNumber)
         {
-            this.input1 = input1;
+            this.realNumber = realNumber;
         }
 
         public static RealNumber operator +(RealNumber b, RealNumber c)
         {
             RealNumber realNumberValue = new RealNumber();
-            realNumberValue.input1 = b.input1 + c.input1;
+            realNumberValue.realNumber = b.realNumber + c.realNumber;
             
             return realNumberValue;
         }

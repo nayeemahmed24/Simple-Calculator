@@ -6,45 +6,46 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    struct ComplexNumber
+    struct ComplexNumber :IOperator 
     {
-        public double input1, input2;
+        public double realNumber, imaginaryNumber;
+        
 
         public ComplexNumber(double a, double b)
         {
-            input1 = a;
-            input2 = b;
+            realNumber = a;
+            imaginaryNumber = b;
         }
 
         public static ComplexNumber operator +(ComplexNumber b, ComplexNumber c)
         {
             ComplexNumber complexNumberValue = new ComplexNumber();
-            complexNumberValue.input1 = b.input1 + c.input1;
-            complexNumberValue.input2 = b.input2 + c.input2;
+            complexNumberValue.realNumber = b.realNumber + c.realNumber;
+            complexNumberValue.imaginaryNumber = b.imaginaryNumber + c.imaginaryNumber;
 
             return complexNumberValue;
         }
         public static ComplexNumber operator -(ComplexNumber b, ComplexNumber c)
         {
             ComplexNumber complexNumberValue = new ComplexNumber();
-            complexNumberValue.input1 = b.input1 - c.input1;
-            complexNumberValue.input2 = b.input2 - c.input2;
+            complexNumberValue.realNumber = b.realNumber - c.realNumber;
+            complexNumberValue.imaginaryNumber = b.imaginaryNumber - c.imaginaryNumber;
 
             return complexNumberValue;
         }
         public static ComplexNumber operator *(ComplexNumber b, ComplexNumber c)
         {
             ComplexNumber complexNumberValue = new ComplexNumber();
-            complexNumberValue.input1 = b.input1 * c.input1;
-            complexNumberValue.input2 = b.input2 * c.input2;
+            complexNumberValue.realNumber = b.realNumber * c.realNumber;
+            complexNumberValue.imaginaryNumber = b.imaginaryNumber * c.imaginaryNumber;
 
             return complexNumberValue;
         }
         public static ComplexNumber operator /(ComplexNumber b, ComplexNumber c)
         {
             ComplexNumber complexNumberValue = new ComplexNumber();
-            complexNumberValue.input1 = b.input1 / c.input1;
-            complexNumberValue.input2 = b.input2 / c.input2;
+            complexNumberValue.realNumber = b.realNumber / c.realNumber;
+            complexNumberValue.imaginaryNumber = b.imaginaryNumber / c.imaginaryNumber;
 
             return complexNumberValue;
         }

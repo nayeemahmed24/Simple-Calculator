@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    struct VectorObject 
+    struct VectorObject : IOperator
     {
         public double X;
         public double Y;
@@ -33,6 +33,14 @@ namespace SimpleCalculator
             vectorObject.Z = (b.X * c.Y) - (b.Y * c.X);
             return vectorObject;
 
+        }
+        public static VectorObject operator -(VectorObject b, VectorObject c)
+        {
+            VectorObject vectorObject = new VectorObject();
+            vectorObject.X = b.X - c.X;
+            vectorObject.Y = b.Y - c.Y;
+            vectorObject.Z = b.Z - c.Z;
+            return vectorObject;
         }
     }
 }

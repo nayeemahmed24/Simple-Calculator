@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Add<T> : ICalculate<T>
+    class Add<T> : ICalculate<T> where T : IOperator
     {
         public T Operation(T input, T result)
         {
