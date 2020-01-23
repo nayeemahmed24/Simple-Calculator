@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    struct VectorObject : IOperator
+    public struct VectorObject : IOperator
     {
         public double X { get; private set; }
         public double Y { get; private set; }

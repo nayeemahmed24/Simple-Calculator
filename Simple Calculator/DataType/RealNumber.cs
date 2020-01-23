@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator 
 {
-    struct RealNumber : IOperator
+    public struct RealNumber : IOperator
     {
         public double realNumber { get; private set; }
 
